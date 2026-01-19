@@ -1,0 +1,4165 @@
+{
+    "ResponseMetadata": {
+        "RequestId": "2025121816501853971778491D9BBC494C",
+        "Action": "ListPagesProject",
+        "Version": "2021-04-01",
+        "Service": "dcdn",
+        "Region": "cn-north-1"
+    },
+    "Result": {
+        "Infos": [
+            {
+                "CreateAt": "2025-12-18T08:49:07Z",
+                "DomainList": null,
+                "ID": "habiz7vpja",
+                "LatestDeploy": "",
+                "Name": "yxtest-other-template",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yxtest-other-template-habiz7vpja-proj2vpiihn8dcyrhjp8.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": []
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "upload",
+                "Scope": "domestic",
+                "Status": "Deploy",
+                "UpdateAt": "2025-12-18T08:49:07Z"
+            },
+            {
+                "CreateAt": "2025-12-18T06:56:41Z",
+                "DomainList": null,
+                "ID": "3o1lhlay7w",
+                "LatestDeploy": "gys67pmefj",
+                "Name": "yxcreate-chat-online",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yxcreate-chat-online-3o1lhlay7w-projce1ikfugkdwh6xaz.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "c3fc88ba-f52c-42d6-89a0-17b9bbe76b90"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T06:57:35Z"
+            },
+            {
+                "CreateAt": "2025-12-18T03:54:18Z",
+                "DomainList": null,
+                "ID": "9bpldot3yq",
+                "LatestDeploy": "zp7adz5n17",
+                "Name": "next-chat-other-quota-rnew",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "next-chat-other-9bpldot3yq-projv33xmio9p2hjtjsv.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "sk-410b3feeac7249909092823efd205bf7"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "deepseek"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://api.deepseek.com/v1"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T06:39:43Z"
+            },
+            {
+                "CreateAt": "2025-12-17T13:25:17Z",
+                "DomainList": null,
+                "ID": "wosh1m7dar",
+                "LatestDeploy": "emjhiyzhgp",
+                "Name": "next-chat-default",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "next-chat-default-wosh1m7dar-projlla4fatoffdwemha.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-17T13:25:57Z"
+            },
+            {
+                "CreateAt": "2025-12-17T13:20:19Z",
+                "DomainList": null,
+                "ID": "9x0pvmx8lo",
+                "LatestDeploy": "p7vs2gqilg",
+                "Name": "next-chat-test",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "next-chat-test-9x0pvmx8lo-proj4yuhdvlursvbj5kk.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "deepseek-v3-2-251201"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-17T13:21:00Z"
+            },
+            {
+                "CreateAt": "2025-12-17T12:23:33Z",
+                "DomainList": null,
+                "ID": "520xmlkvx4",
+                "LatestDeploy": "1r6ng0ram5",
+                "Name": "deepseek",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "deepseek-520xmlkvx4-projhvm7yhipmfekx0r5.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": []
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "upload",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-17T12:47:33Z"
+            },
+            {
+                "CreateAt": "2025-12-17T07:08:39Z",
+                "DomainList": [
+                    {
+                        "CName": "",
+                        "Cert": {
+                            "CertID": "",
+                            "CertName": "",
+                            "CertSource": ""
+                        },
+                        "Domain": "yujiangkang.byte-test.com",
+                        "DomainId": "",
+                        "IsCNAMEResolved": false,
+                        "Status": ""
+                    }
+                ],
+                "ID": "cwetyeyrzg",
+                "LatestDeploy": "a9dzwl2rn9",
+                "Name": "test-image-200",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "test-image-200-cwetyeyrzg-projos8t54pg0t2qfuzx.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-17T08:39:19Z"
+            },
+            {
+                "CreateAt": "2025-12-17T06:59:43Z",
+                "DomainList": null,
+                "ID": "ipvv135zoy",
+                "LatestDeploy": "xsl5cvwcvg",
+                "Name": "test-image-errorapi",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "test-image-errorapi-ipvv135zoy-proj30diwgveze2pdket.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3dsfdsdfsdsfdf"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-5-251128"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-17T07:08:59Z"
+            },
+            {
+                "CreateAt": "2025-12-17T06:11:13Z",
+                "DomainList": null,
+                "ID": "5hl1ugr6ed",
+                "LatestDeploy": "w4u2tvznx2",
+                "Name": "test10111",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "test10111-5hl1ugr6ed-projjosy9i8embb995un.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeployFailed",
+                "UpdateAt": "2025-12-17T06:11:23Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:15:05Z",
+                "DomainList": null,
+                "ID": "sa1lxdi32m",
+                "LatestDeploy": "a5fpj12sqa",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-sa1lxdi32m-projjyesvbu0eowgcy31.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T07:57:23Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:15:00Z",
+                "DomainList": null,
+                "ID": "hl5by8qqej",
+                "LatestDeploy": "xscjbqyvc5",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-hl5by8qqej-projfs6oqiukesgxrc1t.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:23Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:15:00Z",
+                "DomainList": null,
+                "ID": "u0qlkym8y6",
+                "LatestDeploy": "78y1xppj4z",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-u0qlkym8y6-projf9cl3f5m5prq14gm.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:22Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:14:48Z",
+                "DomainList": null,
+                "ID": "3h5o2lj0tw",
+                "LatestDeploy": "jy1irz9ecr",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-3h5o2lj0tw-proj0n0i9y69gq8gkv72.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:23Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:14:48Z",
+                "DomainList": null,
+                "ID": "kzpfycaptx",
+                "LatestDeploy": "ru98uknqmc",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-kzpfycaptx-projgomi2k52rhpifads.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:23Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:14:47Z",
+                "DomainList": null,
+                "ID": "8w9y6wdj40",
+                "LatestDeploy": "eg3w7waznl",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-8w9y6wdj40-proj53g6dgg5i42exw9w.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T07:16:58Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:14:47Z",
+                "DomainList": null,
+                "ID": "10wg4r0s8s",
+                "LatestDeploy": "xq91zhz4ta",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-10wg4r0s8s-projjdec7sx68lv5459a.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:21Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:14:45Z",
+                "DomainList": null,
+                "ID": "9cw2mrs2nh",
+                "LatestDeploy": "293arl855q",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-9cw2mrs2nh-proj6ys0g9mnxfae1ron.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:21Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:14:38Z",
+                "DomainList": null,
+                "ID": "7y2n1ovf5e",
+                "LatestDeploy": "n8t572n5m3",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-7y2n1ovf5e-proj8jqsytco98plfypv.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:25Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:14:28Z",
+                "DomainList": null,
+                "ID": "wq67ohg1my",
+                "LatestDeploy": "g64up97dtw",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-wq67ohg1my-projox1evawyqff7oz9o.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:23Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:14:28Z",
+                "DomainList": null,
+                "ID": "8c37t5z6oe",
+                "LatestDeploy": "8zmyptrqdn",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-8c37t5z6oe-projel20m1fwd8xv9rxq.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:22Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:13:54Z",
+                "DomainList": null,
+                "ID": "4ibif2dbap",
+                "LatestDeploy": "jjdmo97j2v",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-4ibif2dbap-projb2pa1dc0jmh7asnv.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:25Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:13:54Z",
+                "DomainList": null,
+                "ID": "dddde1ckm5",
+                "LatestDeploy": "sdgszlnhob",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-dddde1ckm5-projpyn7e3oynapiu15q.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:19Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:13:52Z",
+                "DomainList": null,
+                "ID": "45wfowjqpb",
+                "LatestDeploy": "5ixyu5nbjc",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-45wfowjqpb-projixrcwqzjcuok0h5q.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:23Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:13:52Z",
+                "DomainList": null,
+                "ID": "e4uob375sz",
+                "LatestDeploy": "pmyqd8oxso",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-e4uob375sz-proj3rvggmudftxtq2ac.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:22Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:13:23Z",
+                "DomainList": null,
+                "ID": "d98u4q6njp",
+                "LatestDeploy": "z1o895bfd3",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-d98u4q6njp-proj6qlh0lq50l20lxdk.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:22Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:13:23Z",
+                "DomainList": null,
+                "ID": "s17vrfemdx",
+                "LatestDeploy": "uhvk84v1d9",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-s17vrfemdx-proj49rwf2235hkl0ejb.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:17Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:13:22Z",
+                "DomainList": null,
+                "ID": "vn29b119de",
+                "LatestDeploy": "3o3u7z28kc",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-vn29b119de-projwkgumbvhwigzwx2m.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:24Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:13:17Z",
+                "DomainList": null,
+                "ID": "966niawqfo",
+                "LatestDeploy": "hsfyw0ku7o",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-966niawqfo-proj3rc807efecndb20e.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:23Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:13:05Z",
+                "DomainList": null,
+                "ID": "nxdgc653bt",
+                "LatestDeploy": "wnci7k51hw",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-nxdgc653bt-projcwtt3wryx1sn04tg.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:21Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:12:54Z",
+                "DomainList": null,
+                "ID": "2qx5yrf78s",
+                "LatestDeploy": "gd4viapve5",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-2qx5yrf78s-proj7f49wvfn4ycup9vz.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:25Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:12:54Z",
+                "DomainList": null,
+                "ID": "hge52p4kqa",
+                "LatestDeploy": "hmo6gz9xqo",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-hge52p4kqa-proj50889iid3d07oy6h.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:23Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:12:53Z",
+                "DomainList": null,
+                "ID": "4vh5ofeey4",
+                "LatestDeploy": "xu4t94q4me",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-4vh5ofeey4-projf5op9sa6wuvyldgw.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:23Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:12:50Z",
+                "DomainList": null,
+                "ID": "9j2d2hhvoi",
+                "LatestDeploy": "55xt1vntt3",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-9j2d2hhvoi-proj8yus5q43t3d1p3co.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:23Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:12:27Z",
+                "DomainList": null,
+                "ID": "xbe7syyizq",
+                "LatestDeploy": "jrquye9cwe",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-xbe7syyizq-projqubx351vr1b66e22.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:18Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:12:26Z",
+                "DomainList": null,
+                "ID": "uaz0i3w32h",
+                "LatestDeploy": "3vvplrx427",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-uaz0i3w32h-projgsmt7c8d0rbf025w.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:22Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:12:26Z",
+                "DomainList": null,
+                "ID": "ckb7gy05hk",
+                "LatestDeploy": "xm9v1h4oll",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-ckb7gy05hk-projy4uf3aguvrlblnhm.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:24Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:11:27Z",
+                "DomainList": null,
+                "ID": "m3mnnqtj3k",
+                "LatestDeploy": "z6gtkombn9",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-m3mnnqtj3k-projs1u0tv1ppc4f3tbz.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:26Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:11:22Z",
+                "DomainList": null,
+                "ID": "ism8j13r9x",
+                "LatestDeploy": "dbtwm6eju0",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-ism8j13r9x-projpjd3ec9ewvoelxtq.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:24Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:11:05Z",
+                "DomainList": null,
+                "ID": "xoa68krsvn",
+                "LatestDeploy": "vhr8n1i287",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-xoa68krsvn-projy862w06kh3exrbl2.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:20Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:10:54Z",
+                "DomainList": null,
+                "ID": "5b0yevwm1t",
+                "LatestDeploy": "h18oz1ao8c",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-5b0yevwm1t-proj9nuaybs2qh5ds80z.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:26Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:10:53Z",
+                "DomainList": null,
+                "ID": "as1zzqj6rj",
+                "LatestDeploy": "2s0qllw0ur",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-as1zzqj6rj-proj2yu94jt7j7o3ruwu.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:25Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:10:53Z",
+                "DomainList": null,
+                "ID": "axju6wfk7q",
+                "LatestDeploy": "1r1hx86r52",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-axju6wfk7q-projyxz6b09ldkxoehhy.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:18Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:10:41Z",
+                "DomainList": null,
+                "ID": "ueizx8vsca",
+                "LatestDeploy": "w119a6trc5",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-ueizx8vsca-projqo9mo77hvuchq6ze.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:26Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:10:41Z",
+                "DomainList": null,
+                "ID": "nfvjw1qkja",
+                "LatestDeploy": "mhga9fqm17",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-nfvjw1qkja-projnofmmgioi51evdah.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:26Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:09:50Z",
+                "DomainList": null,
+                "ID": "y5wouxju7a",
+                "LatestDeploy": "h71iky8hzy",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-y5wouxju7a-projfxsxs2a95983q2dv.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": "epscanner6nycm7c.nextLpscanner6nycm76",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:24Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:09:33Z",
+                "DomainList": null,
+                "ID": "lojbtxwybr",
+                "LatestDeploy": "9sme44pzoo",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-lojbtxwybr-projmo1kmckd0v5pqkn2.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "Opscanner6nycm7dd3c1aa7d-1a4a-4184-8d71-36d2d02e47feEpscanner6nycm7f"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:27Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:09:28Z",
+                "DomainList": null,
+                "ID": "qqqzrslyam",
+                "LatestDeploy": "yz8kwmudk7",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-qqqzrslyam-proj2nw268lt1vvktjro.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "7pscanner6nycm7LAPI_KEYjpscanner6nycm7q",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:24Z"
+            },
+            {
+                "CreateAt": "2025-12-16T23:09:24Z",
+                "DomainList": null,
+                "ID": "j7n8hu3xj6",
+                "LatestDeploy": "ud3bztrsdm",
+                "Name": "yx-test-tem",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-j7n8hu3xj6-proj5hudbhscpb2476go.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:24Z"
+            },
+            {
+                "CreateAt": "2025-12-16T08:11:57Z",
+                "DomainList": null,
+                "ID": "3d3dbb1sm3",
+                "LatestDeploy": "7v6jskud1o",
+                "Name": "fdkhs-test",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "fdkhs-test-3d3dbb1sm3-projlwycqdbq2k95xa8n.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "dsffdsfdfdsfdsfds"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "sdfdsf"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com"
+                            }
+                        ]
+                    },
+                    "Framework": "react",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": "build",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-16T08:12:28Z"
+            },
+            {
+                "CreateAt": "2025-12-16T07:00:10Z",
+                "DomainList": null,
+                "ID": "1s6kjtk51g",
+                "LatestDeploy": "au6twzbu8y",
+                "Name": "erewer",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "erewer-1s6kjtk51g-projkv0jxktyyjrok5a0.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "dffsdhdsjsfkjdhds"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "fdsfsdds"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com"
+                            }
+                        ]
+                    },
+                    "Framework": "react",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": "build",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "overseas",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:24Z"
+            },
+            {
+                "CreateAt": "2025-12-16T06:43:55Z",
+                "DomainList": null,
+                "ID": "31nhfmxun3",
+                "LatestDeploy": "dopwq1fuhj",
+                "Name": "test-upload-success",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "test-upload-31nhfmxun3-projaq3h8v6o8ykwabbr.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": []
+                    },
+                    "Framework": "other",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": "./",
+                    "RootDir": ""
+                },
+                "Provider": "upload",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-16T07:00:57Z"
+            },
+            {
+                "CreateAt": "2025-12-16T06:43:20Z",
+                "DomainList": null,
+                "ID": "7dnn89hzg3",
+                "LatestDeploy": "ih0vsiailv",
+                "Name": "test-nextjs-zip",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "test-nextjs-zip-7dnn89hzg3-projkzrxin5wd2i0b9rq.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": []
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeployFailed",
+                "UpdateAt": "2025-12-16T06:43:30Z"
+            },
+            {
+                "CreateAt": "2025-12-16T06:39:58Z",
+                "DomainList": null,
+                "ID": "qiwcmgnqom",
+                "LatestDeploy": "tjaoin8u1z",
+                "Name": "one-test",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "one-test-qiwcmgnqom-projz2r9021j63uuukdp.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeployFailed",
+                "UpdateAt": "2025-12-16T06:40:09Z"
+            },
+            {
+                "CreateAt": "2025-12-16T06:38:21Z",
+                "DomainList": null,
+                "ID": "aufgj4lq4b",
+                "LatestDeploy": "xygtadptmg",
+                "Name": "yx-test-hexo",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-hexo-aufgj4lq4b-projpkxppg3td6rha18d.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "hexo",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": "public",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-16T06:38:51Z"
+            },
+            {
+                "CreateAt": "2025-12-16T04:03:43Z",
+                "DomainList": null,
+                "ID": "h4tdewebc4",
+                "LatestDeploy": "ili79kjq88",
+                "Name": "yx-test-react",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-react-h4tdewebc4-projssv06pzzzht27yaq.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "react",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": "build",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-16T04:07:54Z"
+            },
+            {
+                "CreateAt": "2025-12-16T04:03:16Z",
+                "DomainList": null,
+                "ID": "r1lvv1xvk5",
+                "LatestDeploy": "syye5odu9j",
+                "Name": "yx-test-vue",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-vue-r1lvv1xvk5-projgsfn0ysu7z1a77at.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "vue",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": "dist",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-16T04:03:47Z"
+            },
+            {
+                "CreateAt": "2025-12-16T04:02:22Z",
+                "DomainList": null,
+                "ID": "8svz7ife7g",
+                "LatestDeploy": "8tzwbhxiv8",
+                "Name": "yx-test-nextjschat",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-nextjschat-8svz7ife7g-projl1axv7pmql1vq7f0.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "overseas",
+                "Status": "DeployFailed",
+                "UpdateAt": "2025-12-16T06:07:28Z"
+            },
+            {
+                "CreateAt": "2025-12-16T03:58:20Z",
+                "DomainList": null,
+                "ID": "j7dm7lts06",
+                "LatestDeploy": "e7bc38mnt2",
+                "Name": "yx-test-nextjs",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yx-test-tem-j7dm7lts06-projqj3xybv5f57d8hyd.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-16T04:01:48Z"
+            },
+            {
+                "CreateAt": "2025-12-12T18:31:35Z",
+                "DomainList": null,
+                "ID": "nz340gpe0n",
+                "LatestDeploy": "dbr78yonc7",
+                "Name": "cert-test",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "cert-test-nz340gpe0n-projf1r0kkydf8z6v06n.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": []
+                    },
+                    "Framework": "other",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": "./",
+                    "RootDir": ""
+                },
+                "Provider": "upload",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-12T18:32:06Z"
+            },
+            {
+                "CreateAt": "2025-12-12T09:38:23Z",
+                "DomainList": null,
+                "ID": "f42cvwxguw",
+                "LatestDeploy": "gzoy6mzvro",
+                "Name": "yxtest-next",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "yxtest-next-f42cvwxguw-projs2htp48yjgcoublm.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-12T09:39:04Z"
+            },
+            {
+                "CreateAt": "2025-12-12T09:33:13Z",
+                "DomainList": null,
+                "ID": "ip9kb7ggca",
+                "LatestDeploy": "sa5h5iya4w",
+                "Name": "test-mashuo",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "test-mashuo-ip9kb7ggca-proj609wis9taqzkzkk6.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": []
+                    },
+                    "Framework": "other",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": "dist",
+                    "RootDir": ""
+                },
+                "Provider": "upload",
+                "Scope": "domestic",
+                "Status": "DeployFailed",
+                "UpdateAt": "2025-12-12T09:55:59Z"
+            },
+            {
+                "CreateAt": "2025-12-12T09:01:08Z",
+                "DomainList": null,
+                "ID": "yasqndyqd9",
+                "LatestDeploy": "6ag3w1bfaj",
+                "Name": "test-chat1",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "test-chat1-yasqndyqd9-projkgd7kmt9tpg3uj0m.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "d3c1aa7d-1a4a-4184-8d71-36d2d02e47fe"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-12T09:49:44Z"
+            },
+            {
+                "CreateAt": "2025-12-12T07:56:40Z",
+                "DomainList": null,
+                "ID": "wpzfr5t3gl",
+                "LatestDeploy": "u1tn52pj2e",
+                "Name": "test-create-key01",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "test-create-key01-wpzfr5t3gl-projk9v1i7403ao2p4ut.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "3242344332243"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "test"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-12T07:57:10Z"
+            },
+            {
+                "CreateAt": "2025-12-12T07:46:50Z",
+                "DomainList": null,
+                "ID": "3qyt5himma",
+                "LatestDeploy": "134dfmiz7b",
+                "Name": "test-create-key",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "test-create-key-3qyt5himma-proj74k6j8l3v184ju86.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY_0",
+                                "Value": "55659c9b-9586-48fc-bad4-b2612bc53c82"
+                            },
+                            {
+                                "Key": "MODEL_0",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL_0",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            },
+                            {
+                                "Key": "API_KEY_1",
+                                "Value": "55659c9b-9586-48fc-bad4-b2612bc53c82"
+                            },
+                            {
+                                "Key": "MODEL_1",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL_1",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            },
+                            {
+                                "Key": "API_KEY_2",
+                                "Value": "55659c9b-9586-48fc-bad4-b2612bc53c82"
+                            },
+                            {
+                                "Key": "MODEL_2",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL_2",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            },
+                            {
+                                "Key": "API_KEY_3",
+                                "Value": "55659c9b-9586-48fc-bad4-b2612bc53c82"
+                            },
+                            {
+                                "Key": "MODEL_3",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL_3",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            },
+                            {
+                                "Key": "API_KEY_4",
+                                "Value": "55659c9b-9586-48fc-bad4-b2612bc53c82"
+                            },
+                            {
+                                "Key": "MODEL_4",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL_4",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            },
+                            {
+                                "Key": "API_KEY_5",
+                                "Value": "55659c9b-9586-48fc-bad4-b2612bc53c82"
+                            },
+                            {
+                                "Key": "MODEL_5",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL_5",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            },
+                            {
+                                "Key": "API_KEY_6",
+                                "Value": "55659c9b-9586-48fc-bad4-b2612bc53c82"
+                            },
+                            {
+                                "Key": "MODEL_6",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL_6",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            },
+                            {
+                                "Key": "API_KEY_7",
+                                "Value": "55659c9b-9586-48fc-bad4-b2612bc53c82"
+                            },
+                            {
+                                "Key": "MODEL_7",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL_7",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            },
+                            {
+                                "Key": "API_KEY_8",
+                                "Value": "55659c9b-9586-48fc-bad4-b2612bc53c82"
+                            },
+                            {
+                                "Key": "MODEL_8",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL_8",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            },
+                            {
+                                "Key": "API_KEY_9",
+                                "Value": "55659c9b-9586-48fc-bad4-b2612bc53c82"
+                            },
+                            {
+                                "Key": "MODEL_9",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL_9",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            },
+                            {
+                                "Key": "API_KEY_10",
+                                "Value": "55659c9b-9586-48fc-bad4-b2612bc53c82"
+                            },
+                            {
+                                "Key": "MODEL_10",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL_10",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            },
+                            {
+                                "Key": "API_KEY_11",
+                                "Value": "55659c9b-9586-48fc-bad4-b2612bc53c82"
+                            },
+                            {
+                                "Key": "MODEL_11",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL_11",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            },
+                            {
+                                "Key": "API_KEY_12",
+                                "Value": "55659c9b-9586-48fc-bad4-b2612bc53c82"
+                            },
+                            {
+                                "Key": "MODEL_12",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL_12",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            },
+                            {
+                                "Key": "API_KEY_13",
+                                "Value": "55659c9b-9586-48fc-bad4-b2612bc53c82"
+                            },
+                            {
+                                "Key": "MODEL_13",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL_13",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            },
+                            {
+                                "Key": "API_KEY_14",
+                                "Value": "55659c9b-9586-48fc-bad4-b2612bc53c82"
+                            },
+                            {
+                                "Key": "MODEL_14",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL_14",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            },
+                            {
+                                "Key": "API_KEY_15",
+                                "Value": "55659c9b-9586-48fc-bad4-b2612bc53c82"
+                            },
+                            {
+                                "Key": "MODEL_15",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL_15",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            },
+                            {
+                                "Key": "API_KEY_16",
+                                "Value": "55659c9b-9586-48fc-bad4-b2612bc53c82"
+                            },
+                            {
+                                "Key": "MODEL_16",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL_16",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            },
+                            {
+                                "Key": "API_KEY_17",
+                                "Value": "55659c9b-9586-48fc-bad4-b2612bc53c82"
+                            },
+                            {
+                                "Key": "MODEL_17",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL_17",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            },
+                            {
+                                "Key": "API_KEY_18",
+                                "Value": "55659c9b-9586-48fc-bad4-b2612bc53c82"
+                            },
+                            {
+                                "Key": "MODEL_18",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL_18",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            },
+                            {
+                                "Key": "API_KEY_19",
+                                "Value": "55659c9b-9586-48fc-bad4-b2612bc53c82"
+                            },
+                            {
+                                "Key": "MODEL_19",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL_19",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-12T07:47:30Z"
+            },
+            {
+                "CreateAt": "2025-12-12T07:45:26Z",
+                "DomainList": null,
+                "ID": "9627nypdzn",
+                "LatestDeploy": "muzv8f898p",
+                "Name": "test-next",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "test-next-9627nypdzn-projpga0sf23k6c6rs1j.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "55659c9b-9586-48fc-bad4-b2612bc53c82"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next11",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-12T07:46:06Z"
+            },
+            {
+                "CreateAt": "2025-12-12T07:20:48Z",
+                "DomainList": null,
+                "ID": "jaar953s9c",
+                "LatestDeploy": "d36fnl1q77",
+                "Name": "dsadasdasdsad",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "dsadasdasdsad-jaar953s9c-proj04lg2y8zjw1i70ra.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "8f08e346-d12a-4f1b-a59a-7862a0d93720"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-12T07:21:28Z"
+            },
+            {
+                "CreateAt": "2025-12-12T05:38:09Z",
+                "DomainList": null,
+                "ID": "04h5ttw168",
+                "LatestDeploy": "jqc1abj98w",
+                "Name": "test-hexo",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "test-hexo-04h5ttw168-projgbtbptv7yig4mls8.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": []
+                    },
+                    "Framework": "hexo",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": "public",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-12T05:38:39Z"
+            },
+            {
+                "CreateAt": "2025-12-12T04:02:51Z",
+                "DomainList": null,
+                "ID": "qbvnw3oif5",
+                "LatestDeploy": "v1aiylr42g",
+                "Name": "cert-test",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "cert-test-qbvnw3oif5-projlfaikh4hzhoyz534.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": []
+                    },
+                    "Framework": "other",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": "./",
+                    "RootDir": ""
+                },
+                "Provider": "upload",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-12T21:30:39Z"
+            },
+            {
+                "CreateAt": "2025-12-12T03:41:19Z",
+                "DomainList": null,
+                "ID": "0aja77bzwm",
+                "LatestDeploy": "ryy546q9ve",
+                "Name": "test-chat",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "test-chat-0aja77bzwm-projdwyaz1ociip9x3vf.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "8f08e346-d12a-4f1b-a59a-7862a0d93720"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-16T10:01:26Z"
+            },
+            {
+                "CreateAt": "2025-12-12T03:34:50Z",
+                "DomainList": null,
+                "ID": "d7cowpnn8v",
+                "LatestDeploy": "5pdayf59c8",
+                "Name": "cert-test01",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "cert-test-d7cowpnn8v-projqg6c1po39crlo7pq.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "dsfas",
+                                "Value": "sfsadfa"
+                            }
+                        ]
+                    },
+                    "Framework": "hexo",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": "./",
+                    "RootDir": ""
+                },
+                "Provider": "upload",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:20Z"
+            },
+            {
+                "CreateAt": "2025-12-12T03:10:10Z",
+                "DomainList": null,
+                "ID": "gtwv07wpvo",
+                "LatestDeploy": "9nsoznq20b",
+                "Name": "test-image",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "test-image-gtwv07wpvo-proj7obi7eibqn1q28vv.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "8f08e346-d12a-4f1b-a59a-7862a0d93720"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-12T03:10:51Z"
+            },
+            {
+                "CreateAt": "2025-12-12T03:04:04Z",
+                "DomainList": null,
+                "ID": "trza7e74v1",
+                "LatestDeploy": "4if5vzexkm",
+                "Name": "test-dir-full-fe",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "test-dir-full-fe-trza7e74v1-projdvnthbc2srbqf5k4.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": []
+                    },
+                    "Framework": "react",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": "./",
+                    "RootDir": ""
+                },
+                "Provider": "upload",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-12T03:04:35Z"
+            },
+            {
+                "CreateAt": "2025-12-11T16:52:12Z",
+                "DomainList": [],
+                "ID": "j6d9gjhwo4",
+                "LatestDeploy": "x3uqxzsz4u",
+                "Name": "sdfasdfa",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "sdfasdfa-j6d9gjhwo4-projt7138ufpbrqsrkom.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "8f08e346-d12a-4f1b-a59a-7862a0d93720"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "hexo",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": "./",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-18T08:49:22Z"
+            },
+            {
+                "CreateAt": "2025-12-11T16:37:20Z",
+                "DomainList": null,
+                "ID": "3rezhki2cw",
+                "LatestDeploy": "ihqbhidskm",
+                "Name": "sdfasdfasfsfa",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "sdfasdfasfsfa-3rezhki2cw-projrf0egnyyean7woe6.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "2a6ab7a2-31e0-4069-9c68-4bb03e584c17"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seedream-4-0-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "react",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": "./",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-11T16:37:50Z"
+            },
+            {
+                "CreateAt": "2025-12-11T16:34:52Z",
+                "DomainList": null,
+                "ID": "p2t3upafgh",
+                "LatestDeploy": "mxefxnl6em",
+                "Name": "afasdfaasfa",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "afasdfaasfa-p2t3upafgh-proj3ldchrp2tfhdij1c.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "8f08e346-d12a-4f1b-a59a-7862a0d93720"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-11T16:35:33Z"
+            },
+            {
+                "CreateAt": "2025-12-11T16:33:03Z",
+                "DomainList": null,
+                "ID": "76cki0mwl2",
+                "LatestDeploy": "5p6i514p5w",
+                "Name": "tetss",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "tetss-76cki0mwl2-projaxva3nkw1jp860tp.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "8f08e346-d12a-4f1b-a59a-7862a0d93720"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-11T16:33:44Z"
+            },
+            {
+                "CreateAt": "2025-12-11T12:39:11Z",
+                "DomainList": [
+                    {
+                        "CName": "",
+                        "Cert": {
+                            "CertID": "",
+                            "CertName": "",
+                            "CertSource": ""
+                        },
+                        "Domain": "2132131.byte-test.com",
+                        "DomainId": "",
+                        "IsCNAMEResolved": false,
+                        "Status": ""
+                    }
+                ],
+                "ID": "2ifizwp3jg",
+                "LatestDeploy": "57tp74dqb8",
+                "Name": "ttttttttttt",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "ttttttttttt-2ifizwp3jg-projgz4mbw8qfthdko9t.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "8f08e346-d12a-4f1b-a59a-7862a0d93720"
+                            },
+                            {
+                                "Key": "MODEL",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark-cn-beijing.bytedance.net/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": ".next",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-11T13:09:37Z"
+            },
+            {
+                "CreateAt": "2025-12-11T11:50:49Z",
+                "DomainList": null,
+                "ID": "4ba255tgu8",
+                "LatestDeploy": "p8koxg8um8",
+                "Name": "test-vue",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "test-vue-4ba255tgu8-projwkxx4w458psooped.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": []
+                    },
+                    "Framework": "vue",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": "dist",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-11T13:20:23Z"
+            },
+            {
+                "CreateAt": "2025-12-11T11:30:47Z",
+                "DomainList": null,
+                "ID": "mibw8yurep",
+                "LatestDeploy": "76z3xxevr2",
+                "Name": "test-react",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "test-react-mibw8yurep-projve2ucykmt2gluabl.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": []
+                    },
+                    "Framework": "react",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": "build",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-11T11:31:28Z"
+            },
+            {
+                "CreateAt": "2025-12-11T09:05:39Z",
+                "DomainList": null,
+                "ID": "8kdd2ocluy",
+                "LatestDeploy": "0x8ptm8763",
+                "Name": "testnextjs",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "testnextjs-8kdd2ocluy-projcrmrf384gjmuacqp.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "8f08e346-d12a-4f1b-a59a-7862a0d93720"
+                            },
+                            {
+                                "Key": "MODLE",
+                                "Value": "doubao-seed-1-6-flash-250828"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark.cn-beijing.volces.com/api/v3/chat/completions"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": "./",
+                    "RootDir": ""
+                },
+                "Provider": "upload",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-11T09:47:42Z"
+            },
+            {
+                "CreateAt": "2025-12-11T08:41:15Z",
+                "DomainList": null,
+                "ID": "ahg7rckwwr",
+                "LatestDeploy": "fwakfcixqi",
+                "Name": "testchat",
+                "ProjectDomain": {
+                    "CName": "",
+                    "Cert": {
+                        "CertID": "cert-xxxxxxxxxxxxxxx",
+                        "CertName": "预览域名证书",
+                        "CertSource": "self"
+                    },
+                    "Domain": "testchat-ahg7rckwwr-projlmqs8r9gpqqlb65p.boe-preivew.iga-pages.com",
+                    "DomainId": "",
+                    "IsCNAMEResolved": true,
+                    "Status": "Started"
+                },
+                "ProjectParam": {
+                    "BuildCmd": "",
+                    "EnvConfig": {
+                        "Values": [
+                            {
+                                "Key": "API_KEY",
+                                "Value": "8f08e346-d12a-4f1b-a59a-7862a0d93720"
+                            },
+                            {
+                                "Key": "BASE_URL",
+                                "Value": "https://ark-cn-beijing.bytedance.net/api/v3"
+                            }
+                        ]
+                    },
+                    "Framework": "nextjs",
+                    "InstallCmd": "",
+                    "ModelConfig": null,
+                    "NetConfig": {
+                        "PublicAccess": true
+                    },
+                    "OutputDir": "./",
+                    "RootDir": ""
+                },
+                "Provider": "template",
+                "Scope": "domestic",
+                "Status": "DeploySuccess",
+                "UpdateAt": "2025-12-11T08:41:56Z"
+            }
+        ],
+        "PageNumber": 1,
+        "PageSize": 1000,
+        "Total": 81
+    }
+}
